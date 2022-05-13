@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-tune2fs/tree/HEAD)
+## [v0.1.3](https://github.com/buluma/ansible-role-tune2fs/tree/v0.1.3) (2022-04-25)
 
-[Full Changelog](https://github.com/buluma/ansible-role-tune2fs/compare/v0.1.2...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-tune2fs/compare/v0.1.2...v0.1.3)
 
 **Closed issues:**
 
