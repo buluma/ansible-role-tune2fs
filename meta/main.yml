@@ -1,12 +1,11 @@
 ---
 galaxy_info:
-  author: Michael Buluma
-  namespace: buluma
+  author: buluma
   role_name: tune2fs
   description: tune ext3 and ext4 filesystems using tune2fs.
   license: Apache-2.0
-  company: ShadowNet
-  min_ansible_version: "2.10"
+  company: none
+  min_ansible_version: "2.12"
 
   platforms:
     - name: Alpine
@@ -17,17 +16,19 @@ galaxy_info:
         - all
     - name: EL
       versions:
-        - 8
+        - "8"
     - name: Fedora
       versions:
         - all
-    - name: OpenSUSE
+    - name: opensuse
       versions:
         - all
     - name: Ubuntu
       versions:
         - all
-
+    - name: Kali
+      versions:
+        - all
   galaxy_tags:
     - tune2fs
 
