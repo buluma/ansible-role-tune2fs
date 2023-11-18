@@ -1,10 +1,10 @@
-# [tune2fs](#tune2fs)
+# [Ansible role tune2fs](#tune2fs)
 
 tune ext3 and ext4 filesystems using tune2fs.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-tune2fs/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-tune2fs/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-tune2fs/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-tune2fs)|[![quality](https://img.shields.io/ansible/quality/58488)](https://galaxy.ansible.com/buluma/tune2fs)|[![downloads](https://img.shields.io/ansible/role/d/58488)](https://galaxy.ansible.com/buluma/tune2fs)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-tune2fs.svg)](https://github.com/buluma/ansible-role-tune2fs/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-tune2fs.svg)](https://github.com/buluma/ansible-role-tune2fs/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-tune2fs.svg)](https://github.com/buluma/ansible-role-tune2fs/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-tune2fs/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-tune2fs/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-tune2fs/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-tune2fs)|[![downloads](https://img.shields.io/ansible/role/d/4864)](https://galaxy.ansible.com/buluma/tune2fs)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-tune2fs.svg)](https://github.com/buluma/ansible-role-tune2fs/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-tune2fs.svg)](https://github.com/buluma/ansible-role-tune2fs/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-tune2fs.svg)](https://github.com/buluma/ansible-role-tune2fs/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
