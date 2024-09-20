@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-tune2fs/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-tune2fs/compare/v24.3.31...HEAD)
+
+**Merged pull requests:**
+
+- Bump ansible/ansible-lint from 24.7.0 to 24.9.0 [\#26](https://github.com/buluma/ansible-role-tune2fs/pull/26) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v24.3.31](https://github.com/buluma/ansible-role-tune2fs/tree/v24.3.31) (2024-03-29)
 
 [Full Changelog](https://github.com/buluma/ansible-role-tune2fs/compare/v0.3.0...v24.3.31)
