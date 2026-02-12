@@ -1,10 +1,10 @@
-# Ansible role [tune2fs](https://galaxy.ansible.com/ui/standalone/roles/buluma/tune2fs/documentation)
+# [Ansible role tune2fs](#ansible-role-tune2fs)
 
 tune ext3 and ext4 filesystems using tune2fs.
 
-|GitHub|Version|Issues|Pull Requests|Downloads|
-|------|-------|------|-------------|---------|
-|[![github](https://github.com/buluma/ansible-role-tune2fs/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-tune2fs/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-tune2fs.svg)](https://github.com/buluma/ansible-role-tune2fs/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-tune2fs.svg)](https://github.com/buluma/ansible-role-tune2fs/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-tune2fs.svg)](https://github.com/buluma/ansible-role-tune2fs/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/tune2fs)](https://galaxy.ansible.com/ui/standalone/roles/buluma/tune2fs/documentation)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/buluma/ansible-role-tune2fs/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-tune2fs/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-tune2fs/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-tune2fs)|[![downloads](https://img.shields.io/ansible/role/d/buluma/tune2fs)](https://galaxy.ansible.com/buluma/tune2fs)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-tune2fs.svg)](https://github.com/buluma/ansible-role-tune2fs/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -59,16 +59,15 @@ tune2fs_settings: []
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
-| Requirement | GitHub | Version |
+| Requirement | GitHub | GitLab |
 |-------------|--------|--------|
-|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Ansible Molecule](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-bootstrap.svg)](https://github.com/shadowwalker/ansible-role-bootstrap)|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
 
 ## [Context](#context)
 
-This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
+This role is part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
 
 Here is an overview of related roles:
-
 ![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-tune2fs/png/requirements.png "Dependencies")
 
 ## [Compatibility](#compatibility)
@@ -79,28 +78,25 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |---------|----|
 |[Alpine](https://hub.docker.com/r/buluma/alpine)|all|
 |[Debian](https://hub.docker.com/r/buluma/debian)|all|
-|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|8|
+|[EL](https://hub.docker.com/r/buluma/enterpriselinux)|all|
 |[Fedora](https://hub.docker.com/r/buluma/fedora)|all|
 |[opensuse](https://hub.docker.com/r/buluma/opensuse)|all|
 |[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|all|
-|[Kali](https://hub.docker.com/r/buluma/kali)|all|
+|[Kali](https://hub.docker.com/r/buluma/kalilinux)|all|
 
-The minimum version of Ansible required is 2.12, tests have been done to:
+The minimum version of Ansible required is 2.12, tests have been done on:
 
 - The previous version.
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/buluma/ansible-role-tune2fs/issues)
-
-## [Changelog](#changelog)
-
-[Role History](https://github.com/buluma/ansible-role-tune2fs/blob/master/CHANGELOG.md)
+If you find issues, please register them on [GitHub](https://github.com/buluma/ansible-role-tune2fs/issues).
 
 ## [License](#license)
 
-[Apache-2.0](https://github.com/buluma/ansible-role-tune2fs/blob/master/LICENSE)
+[Apache-2.0](https://github.com/buluma/ansible-role-tune2fs/blob/master/LICENSE).
 
 ## [Author Information](#author-information)
 
-[Shadow Walker](https://buluma.github.io/)
+[buluma](https://buluma.github.io/)
+

@@ -5,4 +5,4 @@
 repository:
   description: tune ext3 and ext4 filesystems using tune2fs.
   homepage: https://buluma.github.io/
-  topics: tune2fs, ansible, molecule, tox, playbook
+  topics: tune2fs, ansible, molecule, playbook
