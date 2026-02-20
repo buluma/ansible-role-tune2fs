@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test tune2fs_settings
   ansible.builtin.assert:
     that:

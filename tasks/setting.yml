@@ -1,5 +1,4 @@
 ---
-
 - name: setting | Get values
   ansible.builtin.command:
     cmd: tune2fs -l "{{ setting.device }}"
@@ -15,5 +14,5 @@
     - tune2fs_values is defined and tune2fs_values | length > 0
     - setting.maximum_count_mount is defined
     - setting.maximum_count_mount.stdout is defined
-    - "'Maximum mount count:      {{ setting.maximum_count_mount }}' not in tune2fs_values.stdout"  # noqa: no-jinja-when
+    - "'Maximum mount count:      {{ setting.maximum_count_mount }}' not in tune2fs_values.stdout" # noqa: no-jinja-when
   changed_when: true
